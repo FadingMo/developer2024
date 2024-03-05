@@ -2,3 +2,46 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    max-width: 1370px;
+    margin: 0 auto;
+    box-sizing: border-box
+}
+
+.header_title {
+    color: rgb(143, 97, 45);
+    letter-spacing: 0.05em;
+    display: block;
+    align-items: center;
+
+}
+
+.header_subtitle {
+    color: rgb(87, 66, 42);
+    letter-spacing: 0.05em;
+    display: block;
+    align-items: center;
+
+
+}
+
+.cards {
+    max-width: 1370px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+}
+
+.card_box {
+    max-width: 400px;
+    max-height: 400px;
+    color: rgb(48, 102, 86);
+    margin-top: 45px;
+}
+
+.card_img {
+    max-width: 400px;
+    box-shadow: 5px 20px 50px rgba(72, 105, 28, 0.2);
+}
